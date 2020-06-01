@@ -10,7 +10,7 @@ if you want to use this App you need to clone it ``` git clone https://github.co
 
 ## Showcase and Reviewer from dicoding
 
-[!DicodingReview](DicodingReview.png)
+![DicodingReview](./DicodingReview.png)
 
 
 
