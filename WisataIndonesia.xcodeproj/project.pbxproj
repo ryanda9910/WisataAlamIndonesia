@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E13F791247BAE71009EDFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F790247BAE71009EDFF8 /* AppDelegate.swift */; };
+		4E13F793247BAE71009EDFF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F792247BAE71009EDFF8 /* SceneDelegate.swift */; };
+		4E13F797247BAE75009EDFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F796247BAE75009EDFF8 /* Assets.xcassets */; };
+		4E13F79A247BAE75009EDFF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F799247BAE75009EDFF8 /* Preview Assets.xcassets */; };
+		4E13F79D247BAE75009EDFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F79B247BAE75009EDFF8 /* LaunchScreen.storyboard */; };
+		4E13F7B0247BB43B009EDFF8 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7AF247BB43B009EDFF8 /* Detail.swift */; };
+		4E13F7B2247BB44C009EDFF8 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7B1247BB44C009EDFF8 /* About.swift */; };
+		4E13F7B8247BB4A3009EDFF8 /* Profileimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7B7247BB4A3009EDFF8 /* Profileimage.swift */; };
+		4E13F7BA247BB4E9009EDFF8 /* Rowlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7B9247BB4E9009EDFF8 /* Rowlist.swift */; };
+		4E13F7BC247BB514009EDFF8 /* Iconprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7BB247BB514009EDFF8 /* Iconprofile.swift */; };
+		4E13F7C0247BB594009EDFF8 /* Parsedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7BF247BB594009EDFF8 /* Parsedata.swift */; };
+		4E13F7C2247BB5B2009EDFF8 /* Structdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7C1247BB5B2009EDFF8 /* Structdata.swift */; };
+		4E13F7D3247BB5F8009EDFF8 /* pantainiwatu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7C4247BB5F7009EDFF8 /* pantainiwatu.jpg */; };
+		4E13F7D4247BB5F8009EDFF8 /* danautoba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7C5247BB5F7009EDFF8 /* danautoba.jpg */; };
+		4E13F7D5247BB5F8009EDFF8 /* pantaiora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7C6247BB5F7009EDFF8 /* pantaiora.jpg */; };
+		4E13F7D6247BB5F8009EDFF8 /* gunungprau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7C7247BB5F7009EDFF8 /* gunungprau.jpg */; };
+		4E13F7D7247BB5F8009EDFF8 /* danausentani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7C8247BB5F7009EDFF8 /* danausentani.jpg */; };
+		4E13F7D8247BB5F8009EDFF8 /* danaukelimutu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7C9247BB5F7009EDFF8 /* danaukelimutu.jpg */; };
+		4E13F7DA247BB5F8009EDFF8 /* gunungrinjani.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7CB247BB5F7009EDFF8 /* gunungrinjani.jpg */; };
+		4E13F7DB247BB5F8009EDFF8 /* gunungsemeru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7CC247BB5F7009EDFF8 /* gunungsemeru.jpg */; };
+		4E13F7DC247BB5F8009EDFF8 /* giliterawang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7CD247BB5F7009EDFF8 /* giliterawang.jpg */; };
+		4E13F7DD247BB5F8009EDFF8 /* gunungpapandayan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7CE247BB5F7009EDFF8 /* gunungpapandayan.jpg */; };
+		4E13F7DE247BB5F8009EDFF8 /* danausegara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7CF247BB5F8009EDFF8 /* danausegara.jpg */; };
+		4E13F7DF247BB5F8009EDFF8 /* gunungkelimutu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7D0247BB5F8009EDFF8 /* gunungkelimutu.jpg */; };
+		4E13F7E0247BB5F8009EDFF8 /* tanjungbira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7D1247BB5F8009EDFF8 /* tanjungbira.jpg */; };
+		4E13F7E1247BB5F8009EDFF8 /* pantaipink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7D2247BB5F8009EDFF8 /* pantaipink.jpg */; };
+		4E13F7E4247BB708009EDFF8 /* datawisata.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E13F7E3247BB708009EDFF8 /* datawisata.json */; };
+		4E13F7E6247BC1D0009EDFF8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7E5247BC1D0009EDFF8 /* Home.swift */; };
+		4E13F7E8247BC1F3009EDFF8 /* ListImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7E7247BC1F3009EDFF8 /* ListImage.swift */; };
+		4E13F7EB247BCD8F009EDFF8 /* Squareimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7EA247BCD8F009EDFF8 /* Squareimage.swift */; };
+		4E13F7ED247BDC73009EDFF8 /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F7EC247BDC73009EDFF8 /* Searchbar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E13F78D247BAE71009EDFF8 /* WisataIndonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisataIndonesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E13F790247BAE71009EDFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E13F792247BAE71009EDFF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E13F796247BAE75009EDFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E13F799247BAE75009EDFF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E13F79C247BAE75009EDFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E13F79E247BAE75009EDFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E13F7AF247BB43B009EDFF8 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		4E13F7B1247BB44C009EDFF8 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		4E13F7B7247BB4A3009EDFF8 /* Profileimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profileimage.swift; sourceTree = "<group>"; };
+		4E13F7B9247BB4E9009EDFF8 /* Rowlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rowlist.swift; sourceTree = "<group>"; };
+		4E13F7BB247BB514009EDFF8 /* Iconprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iconprofile.swift; sourceTree = "<group>"; };
+		4E13F7BF247BB594009EDFF8 /* Parsedata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsedata.swift; sourceTree = "<group>"; };
+		4E13F7C1247BB5B2009EDFF8 /* Structdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structdata.swift; sourceTree = "<group>"; };
+		4E13F7C4247BB5F7009EDFF8 /* pantainiwatu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantainiwatu.jpg; sourceTree = "<group>"; };
+		4E13F7C5247BB5F7009EDFF8 /* danautoba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danautoba.jpg; sourceTree = "<group>"; };
+		4E13F7C6247BB5F7009EDFF8 /* pantaiora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantaiora.jpg; sourceTree = "<group>"; };
+		4E13F7C7247BB5F7009EDFF8 /* gunungprau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunungprau.jpg; sourceTree = "<group>"; };
+		4E13F7C8247BB5F7009EDFF8 /* danausentani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danausentani.jpg; sourceTree = "<group>"; };
+		4E13F7C9247BB5F7009EDFF8 /* danaukelimutu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danaukelimutu.jpg; sourceTree = "<group>"; };
+		4E13F7CB247BB5F7009EDFF8 /* gunungrinjani.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunungrinjani.jpg; sourceTree = "<group>"; };
+		4E13F7CC247BB5F7009EDFF8 /* gunungsemeru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunungsemeru.jpg; sourceTree = "<group>"; };
+		4E13F7CD247BB5F7009EDFF8 /* giliterawang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giliterawang.jpg; sourceTree = "<group>"; };
+		4E13F7CE247BB5F7009EDFF8 /* gunungpapandayan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunungpapandayan.jpg; sourceTree = "<group>"; };
+		4E13F7CF247BB5F8009EDFF8 /* danausegara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danausegara.jpg; sourceTree = "<group>"; };
+		4E13F7D0247BB5F8009EDFF8 /* gunungkelimutu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunungkelimutu.jpg; sourceTree = "<group>"; };
+		4E13F7D1247BB5F8009EDFF8 /* tanjungbira.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tanjungbira.jpg; sourceTree = "<group>"; };
+		4E13F7D2247BB5F8009EDFF8 /* pantaipink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantaipink.jpg; sourceTree = "<group>"; };
+		4E13F7E3247BB708009EDFF8 /* datawisata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datawisata.json; sourceTree = "<group>"; };
+		4E13F7E5247BC1D0009EDFF8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4E13F7E7247BC1F3009EDFF8 /* ListImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImage.swift; sourceTree = "<group>"; };
+		4E13F7EA247BCD8F009EDFF8 /* Squareimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squareimage.swift; sourceTree = "<group>"; };
+		4E13F7EC247BDC73009EDFF8 /* Searchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E13F78A247BAE71009EDFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E13F784247BAE71009EDFF8 = {
+			isa = PBXGroup;
+			children = (
+				4E13F78F247BAE71009EDFF8 /* WisataIndonesia */,
+				4E13F78E247BAE71009EDFF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E13F78E247BAE71009EDFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E13F78D247BAE71009EDFF8 /* WisataIndonesia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E13F78F247BAE71009EDFF8 /* WisataIndonesia */ = {
+			isa = PBXGroup;
+			children = (
+				4E13F7E9247BC957009EDFF8 /* View */,
+				4E13F7BE247BB552009EDFF8 /* Model */,
+				4E13F790247BAE71009EDFF8 /* AppDelegate.swift */,
+				4E13F792247BAE71009EDFF8 /* SceneDelegate.swift */,
+				4E13F7AA247BB3AA009EDFF8 /* Controller */,
+				4E13F7C3247BB5CF009EDFF8 /* Source */,
+				4E13F796247BAE75009EDFF8 /* Assets.xcassets */,
+				4E13F79B247BAE75009EDFF8 /* LaunchScreen.storyboard */,
+				4E13F79E247BAE75009EDFF8 /* Info.plist */,
+				4E13F798247BAE75009EDFF8 /* Preview Content */,
+			);
+			path = WisataIndonesia;
+			sourceTree = "<group>";
+		};
+		4E13F798247BAE75009EDFF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E13F799247BAE75009EDFF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E13F7AA247BB3AA009EDFF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E13F7B9247BB4E9009EDFF8 /* Rowlist.swift */,
+				4E13F7EC247BDC73009EDFF8 /* Searchbar.swift */,
+				4E13F7E7247BC1F3009EDFF8 /* ListImage.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E13F7BE247BB552009EDFF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E13F7BF247BB594009EDFF8 /* Parsedata.swift */,
+				4E13F7C1247BB5B2009EDFF8 /* Structdata.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E13F7C3247BB5CF009EDFF8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4E13F7C9247BB5F7009EDFF8 /* danaukelimutu.jpg */,
+				4E13F7CF247BB5F8009EDFF8 /* danausegara.jpg */,
+				4E13F7C8247BB5F7009EDFF8 /* danausentani.jpg */,
+				4E13F7C5247BB5F7009EDFF8 /* danautoba.jpg */,
+				4E13F7CD247BB5F7009EDFF8 /* giliterawang.jpg */,
+				4E13F7D0247BB5F8009EDFF8 /* gunungkelimutu.jpg */,
+				4E13F7CE247BB5F7009EDFF8 /* gunungpapandayan.jpg */,
+				4E13F7C7247BB5F7009EDFF8 /* gunungprau.jpg */,
+				4E13F7CB247BB5F7009EDFF8 /* gunungrinjani.jpg */,
+				4E13F7CC247BB5F7009EDFF8 /* gunungsemeru.jpg */,
+				4E13F7E3247BB708009EDFF8 /* datawisata.json */,
+				4E13F7C4247BB5F7009EDFF8 /* pantainiwatu.jpg */,
+				4E13F7C6247BB5F7009EDFF8 /* pantaiora.jpg */,
+				4E13F7D2247BB5F8009EDFF8 /* pantaipink.jpg */,
+				4E13F7D1247BB5F8009EDFF8 /* tanjungbira.jpg */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4E13F7E9247BC957009EDFF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E13F7AF247BB43B009EDFF8 /* Detail.swift */,
+				4E13F7E5247BC1D0009EDFF8 /* Home.swift */,
+				4E13F7B1247BB44C009EDFF8 /* About.swift */,
+				4E13F7B7247BB4A3009EDFF8 /* Profileimage.swift */,
+				4E13F7BB247BB514009EDFF8 /* Iconprofile.swift */,
+				4E13F7EA247BCD8F009EDFF8 /* Squareimage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E13F78C247BAE71009EDFF8 /* WisataIndonesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E13F7A1247BAE75009EDFF8 /* Build configuration list for PBXNativeTarget "WisataIndonesia" */;
+			buildPhases = (
+				4E13F789247BAE71009EDFF8 /* Sources */,
+				4E13F78A247BAE71009EDFF8 /* Frameworks */,
+				4E13F78B247BAE71009EDFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WisataIndonesia;
+			productName = WisataIndonesia;
+			productReference = 4E13F78D247BAE71009EDFF8 /* WisataIndonesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E13F785247BAE71009EDFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					4E13F78C247BAE71009EDFF8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E13F788247BAE71009EDFF8 /* Build configuration list for PBXProject "WisataIndonesia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E13F784247BAE71009EDFF8;
+			productRefGroup = 4E13F78E247BAE71009EDFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E13F78C247BAE71009EDFF8 /* WisataIndonesia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E13F78B247BAE71009EDFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E13F7D3247BB5F8009EDFF8 /* pantainiwatu.jpg in Resources */,
+				4E13F7D4247BB5F8009EDFF8 /* danautoba.jpg in Resources */,
+				4E13F7E1247BB5F8009EDFF8 /* pantaipink.jpg in Resources */,
+				4E13F7D7247BB5F8009EDFF8 /* danausentani.jpg in Resources */,
+				4E13F7E0247BB5F8009EDFF8 /* tanjungbira.jpg in Resources */,
+				4E13F79D247BAE75009EDFF8 /* LaunchScreen.storyboard in Resources */,
+				4E13F7E4247BB708009EDFF8 /* datawisata.json in Resources */,
+				4E13F7DF247BB5F8009EDFF8 /* gunungkelimutu.jpg in Resources */,
+				4E13F7DE247BB5F8009EDFF8 /* danausegara.jpg in Resources */,
+				4E13F7D5247BB5F8009EDFF8 /* pantaiora.jpg in Resources */,
+				4E13F7D6247BB5F8009EDFF8 /* gunungprau.jpg in Resources */,
+				4E13F7D8247BB5F8009EDFF8 /* danaukelimutu.jpg in Resources */,
+				4E13F7DB247BB5F8009EDFF8 /* gunungsemeru.jpg in Resources */,
+				4E13F7DA247BB5F8009EDFF8 /* gunungrinjani.jpg in Resources */,
+				4E13F7DC247BB5F8009EDFF8 /* giliterawang.jpg in Resources */,
+				4E13F79A247BAE75009EDFF8 /* Preview Assets.xcassets in Resources */,
+				4E13F7DD247BB5F8009EDFF8 /* gunungpapandayan.jpg in Resources */,
+				4E13F797247BAE75009EDFF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E13F789247BAE71009EDFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E13F7BC247BB514009EDFF8 /* Iconprofile.swift in Sources */,
+				4E13F7B0247BB43B009EDFF8 /* Detail.swift in Sources */,
+				4E13F7ED247BDC73009EDFF8 /* Searchbar.swift in Sources */,
+				4E13F7E6247BC1D0009EDFF8 /* Home.swift in Sources */,
+				4E13F7B2247BB44C009EDFF8 /* About.swift in Sources */,
+				4E13F7EB247BCD8F009EDFF8 /* Squareimage.swift in Sources */,
+				4E13F7E8247BC1F3009EDFF8 /* ListImage.swift in Sources */,
+				4E13F7C2247BB5B2009EDFF8 /* Structdata.swift in Sources */,
+				4E13F791247BAE71009EDFF8 /* AppDelegate.swift in Sources */,
+				4E13F7C0247BB594009EDFF8 /* Parsedata.swift in Sources */,
+				4E13F7BA247BB4E9009EDFF8 /* Rowlist.swift in Sources */,
+				4E13F793247BAE71009EDFF8 /* SceneDelegate.swift in Sources */,
+				4E13F7B8247BB4A3009EDFF8 /* Profileimage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E13F79B247BAE75009EDFF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E13F79C247BAE75009EDFF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E13F79F247BAE75009EDFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E13F7A0247BAE75009EDFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E13F7A2247BAE75009EDFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WisataIndonesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WisataIndonesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WisataIndonesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E13F7A3247BAE75009EDFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WisataIndonesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WisataIndonesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WisataIndonesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E13F788247BAE71009EDFF8 /* Build configuration list for PBXProject "WisataIndonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E13F79F247BAE75009EDFF8 /* Debug */,
+				4E13F7A0247BAE75009EDFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E13F7A1247BAE75009EDFF8 /* Build configuration list for PBXNativeTarget "WisataIndonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E13F7A2247BAE75009EDFF8 /* Debug */,
+				4E13F7A3247BAE75009EDFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E13F785247BAE71009EDFF8 /* Project object */;
+}
